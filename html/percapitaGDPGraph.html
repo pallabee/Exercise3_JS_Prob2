@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+   <link href="../css/style.css" rel="stylesheet">
+  <title>Practice JS</title>
+</head>
+<body onload="plotStackedGraph('#canvaspercapitaGDP', '../data/percapitaGDP.json');" class="bodycolour">
+  <div class="container col-12">
+    <nav class="navbar navbar-inverse navbar-fixed-top col-12">
+
+      <div class="container-fluid navbar-left">
+
+      <h4 id="heading">Per Capita GDP</h4>
+      </div>
+    </nav>
+  </div>
+
+  <h3>Per Capita GDP</h3>
+  <a href="../html/GDP.html"><h4>Home</h4></a>
+  <div id="canvaspercapitaGDP"></div>
+
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script src="../js/stackedGraph.js" charset="utf-8"></script>
+
+</body>
+
+</html>
